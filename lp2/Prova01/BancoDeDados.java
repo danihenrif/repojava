@@ -24,19 +24,20 @@ public class BancoDeDados {
         System.out.println("############################################");
     }
 
-    /*public void listarAtividades(){
+    public void listarAtividades(){
         System.out.println("############### Professores ###############");
             for(Funcionario funcionario : funcionarios){
-                System.out.println("Professor.: " + funcionario.getNome());
-                funcionario.listaAtividades();
+                ((Professor)funcionario).listaAtividades();
             }
         System.out.println("############################################");
-    }*/
+    }
 
     public void listarListaDeAlunos(){
         System.out.println("############### Alunos ###############");
-        for(Funcionario funcionario : funcionarios){
-            funcionario.listaAlunos();
+        for(Funcionario funcionario : funcionarios){        
+            if(funcionario instanceof Professor){
+                ((Professor)funcionario).listaAlunos();
+            }
         }
         System.out.println("############################################");
     }

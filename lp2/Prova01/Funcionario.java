@@ -14,12 +14,4 @@ public class Funcionario {
     public void setMatricula(int matricula) {
         this.matricula = matricula;
     }
-
-    public void listaAtividades(){
-    }
-    
-    public void listaAlunos(){
-    }
-
-    
 }

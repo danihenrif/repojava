@@ -31,7 +31,8 @@ public class Aluno {
     public void removeTreino(Treino treino){
         treinos.remove(treino);
     }
-
-    
+    public HashSet<Treino> getTreino(){
+        return treinos;
+    }
 
 }
