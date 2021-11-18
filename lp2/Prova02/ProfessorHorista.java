@@ -10,7 +10,7 @@ public class ProfessorHorista extends Professor {
         this.horasTrabalhadas = horasTrabalhadas;
     }
     
-    public void setSalario(){
-        salario = (valorHora * horasTrabalhadas) + (150 * numeroDependentes); 
+    public void setSalario(double salario){
+        this.salario = (valorHora * horasTrabalhadas) + (150 * numeroDependentes); 
     }
 }

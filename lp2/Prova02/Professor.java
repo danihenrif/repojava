@@ -31,6 +31,7 @@ public class Professor {
         return salario;
     }
     public void setSalario(double salario) {
+        
     }
     public String getNivelEscolaridade() {
         return nivelEscolaridade;
@@ -49,8 +50,5 @@ public class Professor {
     }
     public void setNumeroDependentes(int numeroDependentes) {
         this.numeroDependentes = numeroDependentes;
-    }
-
-
-    
+    }  
 }

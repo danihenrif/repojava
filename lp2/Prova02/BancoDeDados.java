@@ -73,7 +73,7 @@ public class BancoDeDados {
                 totalHoristas += professor.getSalario();
             }
         }
-        System.out.println("------------------------------Total DE SALARIOS A PAGAR ---------------------------------");
+        System.out.println("------------------------------Total DE SALARIOS A PAGAR ---------------------------");
         System.out.println("A escola deve pagar um total de: " + totalIntegrais + " R$ aos professores integrais");
         System.out.println("A escola deve pagar um total de: " + totalHoristas + " R$ aos professores horistas");
         System.out.println("-----------------------------------------------------------------------------------");        
@@ -90,32 +90,32 @@ public class BancoDeDados {
             }
         }
         
-        System.out.println("------------------------------QUANTIDADE MÉDIA DE HORAS TRABALHADAS POR PROFESSORES HORISTAS---------------------------------");
+        System.out.println("-----------QUANTIDADE MEDIA DE HORAS TRABALHADAS POR PROFESSORES HORISTAS----------");
         System.out.println(mediaHoras/contador); 
         System.out.println("-----------------------------------------------------------------------------------");        
     }
 
     public void listaProfessoresLecionamPortuguesMatematica(){
-        System.out.println("------------------------------ PROFESSORES QUE LECIONAM PORTUGUES E MATEMATICA ---------------------------------");
+        System.out.println("------------------ PROFESSORES QUE LECIONAM PORTUGUES E MATEMATICA ----------------");
         for(Professor professor : professores){
             if(professor.getDisciplina() == "portugues" || professor.getDisciplina() == "Portugues" || professor.getDisciplina() == "PORTUGUES"){
-                System.out.println("O professor " + professor.getNome() + " leciona portugues");
+                System.out.println("O(A) professor(a) " + professor.getNome() + " leciona portugues");
             }
             else if(professor.getDisciplina() == "matematica" || professor.getDisciplina() == "Matematica" || professor.getDisciplina() == "MATEMATICA"){
-                System.out.println("O professor " + professor.getNome() + " leciona matematica");
+                System.out.println("O(A) professor(a) " + professor.getNome() + " leciona matematica");
             }
         }
         System.out.println("-----------------------------------------------------------------------------------");        
     }
 
     public void listaProfessoresMestresEDoutores(){
-        System.out.println("------------------------------ PROFESSORES MESTRES E DOUTORES ---------------------------------");
+        System.out.println("------------------------------ PROFESSORES MESTRES E DOUTORES ---------------------");
         for(Professor professor : professores){
             if(professor.getNivelEscolaridade() == "mestrado" || professor.getNivelEscolaridade() == "Mestrado" || professor.getNivelEscolaridade() == "MESTRADO"){
-                System.out.println("O professor " + professor.getNome() + " é mestre");
+                System.out.println("O(A) professor(a) " + professor.getNome() + " eh mestre");
             }
             else if(professor.getNivelEscolaridade() == "doutorado" || professor.getNivelEscolaridade() == "Doutorado" || professor.getNivelEscolaridade() == "DOUTORADO"){
-                System.out.println("O professor " + professor.getNome() + " é doutor");
+                System.out.println("O(A) professor(a) " + professor.getNome() + " eh  doutor");
             }
         }
         System.out.println("-----------------------------------------------------------------------------------");          
