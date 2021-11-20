@@ -27,7 +27,9 @@ public class BancoDeDados {
     public void listarAtividades(){
         System.out.println("############### Professores ###############");
             for(Funcionario funcionario : funcionarios){
-                ((Professor)funcionario).listaAtividades();
+                if(funcionario instanceof Professor){
+                    ((Professor)funcionario).listaAtividades();
+                }
             }
         System.out.println("############################################");
     }

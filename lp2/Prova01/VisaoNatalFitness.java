@@ -31,21 +31,12 @@ public class VisaoNatalFitness {
         aluno2.setCpf("088.478.859-04");
         
 
-        Treino treino1Aluno1 = new Treino();
-        Treino treino2Aluno1 = new Treino();
+        Treino treino1Aluno1 = new Treino("Hipertrofia", "10:00");
+        Treino treino2Aluno1 = new Treino("Corrida", "15:00");
 
-        Treino treino1Aluno2 = new Treino();
-        Treino treino2Aluno2 = new Treino();
+        Treino treino1Aluno2 = new Treino("Cardio", "09:00");
+        Treino treino2Aluno2 = new Treino("Basquete", "14:00");
 
-        treino1Aluno1.setNomeAtividade("Hipertrofia");
-        treino1Aluno1.setHoraAtividade("10:00");
-        treino2Aluno1.setNomeAtividade("Corrida");
-        treino2Aluno1.setHoraAtividade("15:00");
-
-        treino1Aluno2.setNomeAtividade("Cardio");
-        treino1Aluno2.setHoraAtividade("09:00");
-        treino2Aluno2.setNomeAtividade("Basquete");
-        treino2Aluno2.setHoraAtividade("14:00");
 
         aluno1.adicionaTreino(treino1Aluno1);
         aluno1.adicionaTreino(treino2Aluno1);

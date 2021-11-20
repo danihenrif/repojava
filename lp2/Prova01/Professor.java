@@ -17,7 +17,7 @@ public class Professor extends Funcionario {
             System.out.println("Professor [" + getNome() + "]");
             System.out.println("Aluno >>> " + aluno.getNome());
             for(Treino treino : aluno.getTreino()){
-                System.out.println(treino.getHoraAtividade() + "=" + treino.getNomeAtividade());
+                System.out.println(treino.getHoraAtividade() + "->" + treino.getNomeAtividade());
             }
         }
     }

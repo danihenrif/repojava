@@ -2,6 +2,11 @@ public class Treino {
     private String nomeAtividade;
     private String horaAtividade;
     
+    public Treino(String nomeAtividade, String horaAtividade){
+        this.nomeAtividade = nomeAtividade;
+        this.horaAtividade = horaAtividade;
+    }
+    
     public String getNomeAtividade() {
         return nomeAtividade;
     }
