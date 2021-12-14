@@ -83,22 +83,26 @@ public class LocaLisa {
         Map<String, Integer> mapa = new HashMap<String, Integer>();
         
         for(Veiculo veiculo : veiculos){
-            if(veiculo instanceof Carro && mapa.containsKey(veiculo.getMarca())){
-                mapa.put(veiculo.getMarca(), mapa.hashCode() + 1) ;
+            if(veiculo instanceof Carro){
+                mapa.merge(veiculo.getMarca(), 1, Integer::sum);
             }
-            else if(veiculo instanceof Carro && !(mapa.containsKey(veiculo.getMarca())) ){
-                mapa.put(veiculo.getMarca(), 0);
+
+            //OU
+
+            /*if(veiculo instanceof Carro && mapa.containsKey(veiculo.getMarca())){
+                mapa.put(veiculo.getMarca(), mapa.get(veiculo.getMarca()) + 1 );
             }
+            else if(veiculo instanceof Carro && (!(mapa.containsKey(veiculo.getMarca()))) ){
+                mapa.putIfAbsent(veiculo.getMarca(), 0);
+                mapa.put(veiculo.getMarca(), mapa.get(veiculo.getMarca()) + 1 );
+            }*/
         }
 
         int maior;
         String marca;
 
         mapa.forEach((key,value)->{
-            if(value > maior){
-                maior = value;
-                marca = key;
-            }
+            System.out.println(key + value);
         });
     }
 
@@ -173,11 +177,11 @@ public class LocaLisa {
 
         listaAluguelMaisCaro();
 
+        listaMarcaComMaiorQtddDeCarros();
+
         removeVeiculo(carro2);
 
         exibeVeiculosCadastrados();
-
-        //listaMarcaComMaiorQtddDeCarros();
 
     }
 }

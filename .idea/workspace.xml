@@ -2,12 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99825ecd-2779-4d40-9514-9a8c73c4a50a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/maratona-java/maratona-java.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/lp2/Prova03/br/ufrn/imd/modelo/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lp2/Prova03/br/ufrn/imd/modelo/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lp2/Prova03/br/ufrn/imd/modelo/SeguroVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lp2/Prova03/br/ufrn/imd/modelo/Tributavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maratona-java/src/br/ufrn/imd/modelo/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maratona-java/src/br/ufrn/imd/modelo/SeguroVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maratona-java/src/br/ufrn/imd/modelo/Tributavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lp2/Pratica04/LocaLisa.java" beforeDir="false" afterPath="$PROJECT_DIR$/lp2/Pratica04/LocaLisa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/introducao/Aula01OlaDevDojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/introducao/Aula02TiposPrimitivos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/introducao/Aula03TiposPrimitivosExercicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Aintroducaoclasses/domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Aintroducaoclasses/test/PersonTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/domain/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/CalculatorTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/CalculatorTest02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/PersonTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/GHeritage/domain/Adress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/GHeritage/domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Gassociation/domain/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Gassociation/domain/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Gassociation/test/PlayerTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratona-java/src/academy/devdojo/maratonajava/javacore/Gassociation/test/PlayerTest02.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,7 +52,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lp2/Prova03/br/ufrn/imd/modelo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Daniel\Desktop\git\repojava\lp2\Prova03\br\ufrn\imd\modelo" />
+      <recent name="C:\Users\Daniel\Desktop\git\repojava\maratona-java\src\br\ufrn\imd\modelo" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,10 +69,24 @@
       <option name="presentableId" value="Default" />
       <updated>1636021445646</updated>
       <workItem from="1636021447605" duration="70000" />
+      <workItem from="1638440347024" duration="3093000" />
+      <workItem from="1638504476039" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

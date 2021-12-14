@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3172c4a-a203-4cc1-b32b-56c6f3192f71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Prova03/br/ufrn/imd/modelo/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prova03/br/ufrn/imd/modelo/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prova03/br/ufrn/imd/modelo/SeguroVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prova03/br/ufrn/imd/modelo/Tributavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../maratona-java/src/br/ufrn/imd/modelo/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../maratona-java/src/br/ufrn/imd/modelo/SeguroVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../maratona-java/src/br/ufrn/imd/modelo/Tributavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica04/LocaLisa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pratica04/LocaLisa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/introducao/Aula01OlaDevDojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/introducao/Aula02TiposPrimitivos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/introducao/Aula03TiposPrimitivosExercicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Aintroducaoclasses/domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Aintroducaoclasses/test/PersonTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/domain/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/CalculatorTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/CalculatorTest02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/PersonTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/GHeritage/domain/Adress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/GHeritage/domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Gassociation/domain/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Gassociation/domain/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Gassociation/test/PlayerTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maratona-java/src/academy/devdojo/maratonajava/javacore/Gassociation/test/PlayerTest02.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="22GBmjExn1dAA7SqZO2rOX87wUk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3172c4a-a203-4cc1-b32b-56c6f3192f71" name="Changes" comment="" />
+      <created>1639454205337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639454205337</updated>
+      <workItem from="1639454206635" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
